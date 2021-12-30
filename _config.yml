@@ -3,7 +3,6 @@ style: dark
 
 plugins:
   - jekyll-octicons
-  - jekyll-github-metadata
   - jemoji
 
 permalink: /:year/:month/:day/:title/
@@ -21,38 +20,25 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 10
   exclude:
     archived: false
     forks: true
     projects:
     # - repo-name
 
- social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-   instagram: MrReekoTV
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-   twitter: MrReekoTV
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-   youtube: MrReekoFTWxD
+social_media:
+  instagram: MrReekoTV
+  twitter: MrReekoTV
+  youtube: MrReekoTV
 
 topics:
-  - name: CPP
+  - name: C++
     web_url: https://github.com/topics/cpp
-    image_url: https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
 
   - name: IDA
     web_url: https://hex-rays.com/ida-pro/
-    image_url: https://static.wixstatic.com/media/6a4a49_76094687779646fcb48f8863e9119f47~mv2.png/v1/fit/w_170%2Ch_209%2Cal_c/file.png
+    image_url: https://software-sources.com/wp-content/uploads/2018/05/logo-1.png
 
 
